@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grill On Wheels</title>
+	<link rel="stylesheet" type="text/css" href="grill.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJr5Y7RlmJtBTAr4_pommFH4icfK3sqr0&libraries=places&callback=initAutocomplete"
+         async defer></script>
+
+
+<a href="index.html"><img id="info-nav" src="images/info-nav.png"></a>
+<div id='header'>
+</div>
+<div id='button-side'>
+<button id='buttons' type="button" class="btn btn-default btn-lg trucks" data-name="ARLOS" data-twitter='arlostruck' data-map=' <div id="gooogleMap" style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%; top:10%;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;margin-top: 18%;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=peached+tortilla&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" rel="nofollow" href="http://www.szablonypremium.pl" id="grab-maps-authorization"></a><style>#my-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=e5d90539-51e4-e3bc-bcba-15c13fd941e3&c=google-map-code&u=1475118099" defer="defer" async="async"></script>' data-images='' >ARLOS</button>
+
+<button id='buttons' type="button" class="btn btn-default btn-lg trucks" data-name="ANGRY EGG ROLL" data-twitter='AngryEggRoll' data-map='<div style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=super+burrito&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" rel="nofollow" href="http://www.szablonypremium.pl" id="grab-maps-authorization">są tutaj</a><style>#my-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=27206b64-217a-56cb-630c-c60952569d1e&c=google-map-code&u=1475118099" defer="defer" async="async"></script>'>ANGRY EGG ROLL</button>
+
+<button id='buttons' type="button" class="btn btn-default btn-lg trucks" data-name="KEBABALICIOUS" data-twitter='kebabalicious' data-map='<div style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Biscuits+and+Groovy,+Duval+Street,+Austin,+TX,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" rel="nofollow" href="http://www.szablonypremium.pl" id="grab-maps-authorization">http://www.szablonypremium.pl</a><style>#my-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=18ccfff3-cc2e-6bbd-9ead-a83e9d55b6c3&c=google-map-code&u=1475118099" defer="defer" async="async"></script>'>KEBABALICIOUS</button>
+
+<button id='buttons' type="button" class="btn btn-default btn-lg trucks" data-name="THE PICNIC" data-twitter='thepicnicaustin' data-map='<div style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=MICKLETHWAIT+CRAFT+MEATS&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" rel="nofollow" href="http://www.szablonypremium.pl" id="grab-maps-authorization">http://www.szablonypremium.pl</a><style>#my-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=7be913fd-d488-ec3e-43fd-03e2827e1567&c=google-map-code&u=1475118099" defer="defer" async="async"></script>'>THE PICNIC</button>
+
+<button id='buttons' type="button" class="btn btn-default btn-lg trucks" data-name="LUKES INSIDE OUT" data-twitter='LukesInsideOut' data-map='<div style="text-decoration:none; overflow:hidden; height:300px; width:300px; max-width:100%;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=THE+VEGAN+YATCH&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-code" rel="nofollow" href="http://www.szablonypremium.pl" id="grab-maps-authorization">szablonypremium.pl</a><style>#my-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.szablonypremium.pl/google-maps-authorization.js?id=f3901752-415a-d7ca-38d8-dab61f9668d2&c=google-map-code&u=1475118099" defer="defer" async="async"></script>' >LUKES INSIDE OUT</button>
+</div>
+
+<div id='info-side'>
+	<div id='side1'>
+		<div id='Name'>NAME</div>
+		<div id='map'></div>
+		<div id='Twitter'>
+		<div id="timeline">
+	
+	</div>
+</div>
+</div>
+
+<script type="text/javascript" src="grills.js"></script>
+</body>
+</html>
